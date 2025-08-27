@@ -2,42 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Notes</title>
   <style>
     body {
-      font-family: sans-serif;
-      max-width: 600px;
+      background-color: #1c2528; /* dark gray/blue */
+      color: #a9c6d9;            /* light bluish-gray text */
+      font-family: Georgia, "Times New Roman", serif;
+      text-align: center;
       margin: 2rem auto;
-      padding: 0 1rem;
-      line-height: 1.6;
+      max-width: 800px;
+      line-height: 1.8;
     }
     h1 {
-      text-align: center;
-      margin-bottom: 2rem;
+      font-size: 2em;
+      margin-bottom: 0.3em;
+    }
+    p.subtitle {
+      font-style: italic;
+      margin-bottom: 2em;
     }
     ul {
       list-style-type: none;
       padding: 0;
     }
     li {
-      margin: 0.5rem 0;
+      margin: 0.6em 0;
     }
     a {
+      color: #6eb5d3; /* light blue */
       text-decoration: none;
-      color: #0066cc;
+      font-size: 1.2em;
     }
     a:hover {
       text-decoration: underline;
+    }
+    footer {
+      margin-top: 3em;
+      font-size: 0.9em;
+      color: #88a5b8;
     }
   </style>
 </head>
 <body>
   <h1>My Notes</h1>
+  <p class="subtitle">A collection of notes and resources</p>
   <ul>
-    <li><a href="page1.html">Page 1</a></li>
-    <li><a href="page2.html">Page 2</a></li>
-    <li><a href="https://example.com" target="_blank">External Link</a></li>
+    <li><a href="note1.html">Note 1</a></li>
+    <li><a href="note2.html">Note 2</a></li>
+    <li><a href="https://example.com" target="_blank">External resource</a></li>
   </ul>
+  <footer>
+    © 2025 Your Name
+  </footer>
 </body>
 </html>
